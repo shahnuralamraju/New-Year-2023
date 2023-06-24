@@ -10,7 +10,7 @@ p {
     line-height: 26px;
 }
 
-/* all display classes  */
+/* all general classes  */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -34,6 +34,9 @@ p {
 
 .w-70 {
     width: 70%;
+}
+.w-45{
+    width: 45%;
 }
 .d-inline{
     display: flex;
@@ -125,6 +128,7 @@ p {
 }
 /*.............  */
 
+/* hero section  */
 .hero-section {
     height: 90vh;
     background: #f1fcfd;
@@ -134,7 +138,9 @@ p {
     width: 90%;
     height: 90%;
 }
+/* ..........  */
 
+/* plans card  */
 .plan-card{
     display: flex;
     align-items: center;
@@ -142,7 +148,53 @@ p {
     justify-content: space-around;
     height: 200px;
 }
+/* ............  */
 
+/* join me section classes */
+.join-me {
+    padding: 50px 0;
+    margin: 100px 0;
+}
+.join-img {
+    width: 80%;
+}
+.join-img>img {
+    height: 100%;
+    width: 100%;
+}
+.join-input {
+    outline: none;
+    height: 50px;
+    margin: 10px 0;
+    border-width: 0 0 2px 0;
+    border-color: rgb(192, 192, 193);
+    font-size: 16px;
+}
+.join-input:focus {
+    border-color: #F15B22;
+}
+.join-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.form-container>h1 {
+    font-size: 45px;
+    margin: 20px 0;
+}
+.form-container {
+    padding: 50px;
+}
+#text-area {
+    resize: none;
+    height: 65px;
+}
+/* .............  */
+
+/* call now section  */
 .overlay-container{
     height: 300px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('./images/watch.png');
@@ -155,7 +207,9 @@ p {
     flex-direction: column;
     padding-left: 4rem;
 }
+/* ..................  */
 
+/* footer section  */
 .footer{
     padding: 4.5rem 0;
     margin-top: 5rem;
@@ -180,3 +234,4 @@ p {
     margin-top: 1rem;
     width: 80%;
 }
+/* ..............  */
